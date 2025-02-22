@@ -55,7 +55,7 @@ def main(ref_folder, non_ref_folder, output_folder="aligned_output"):
     i=0
     for ref_path, target_path in image_pairs:
         process_pair(ref_path, target_path)
-        if (i > 3):
+        if (i > 3): # so that it stops after aligning a few for testing
             break
         i+=1
 
