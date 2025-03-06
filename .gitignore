@@ -1,0 +1,5 @@
+# Ignore all files in the distorted_images directory
+/distorted_images/*
+
+# Ignore all files in the undistorted_images directory
+/undistorted_images/*
